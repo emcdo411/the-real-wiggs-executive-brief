@@ -94,7 +94,7 @@ It is intentionally written for non-technical readers. Technical detail is used 
 
 Read the full stress test here:
 
-[Open the Veracode AI Roadmap Stress Test](https://github.com/emcdo411/the-real-wiggs-executive-brief/blob/main/veracode_moc_mbel_awss_stress_test.md)
+[Open the Veracode AI Roadmap Stress Test](https://github.com/emcdo411/the-real-wiggs-executive-brief/blob/main/outputs/veracode_moc_mbel_awss_stress_test.md)
 
 ## How To Use It
 

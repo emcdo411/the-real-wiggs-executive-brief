@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Real Wiggs | Executive AI Stress Test</title>
+  <meta name="description" content="A premium executive brief landing page for The Real Wiggs — Veracode AI roadmap stress test, MOC + MBEL framework intelligence, and revenue-proof positioning." />
+  <meta property="og:title" content="The Real Wiggs | Executive AI Stress Test" />
+  <meta property="og:description" content="Accepted. Merged. Sustained. The proof layer behind AppSec AI revenue architecture." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#12001f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#030105;
+      --black:#000;
+      --ink:#fbf8ff;
+      --muted:#bcb1c9;
+      --dim:#82758e;
+      --line:rgba(255,255,255,.14);
+      --line-hot:rgba(205,167,255,.36);
+      --panel:rgba(255,255,255,.055);
+      --panel-2:rgba(255,255,255,.09);
+      --purple:#8b35ff;
+      --purple-2:#c7a2ff;
+      --purple-3:#4c0fa8;
+      --acid:#efe6ff;
+      --max:1220px;
+      --display:'Anton', Impact, 'Arial Black', sans-serif;
+      --body:'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:
+        radial-gradient(circle at 18% 4%, rgba(178,98,255,.45), transparent 31%),
+        radial-gradient(circle at 84% 12%, rgba(89,16,201,.50), transparent 33%),
+        linear-gradient(135deg,#2b0647 0%,#12001f 28%,#06020a 58%,#000 100%);
+      color:var(--ink);
+      font-family:var(--body);
+      overflow-x:hidden;
+    }
+    body:before{
+      content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;
+      background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+      background-size:54px 54px;
+      mask-image:linear-gradient(to bottom,rgba(0,0,0,.85),transparent 78%);
+    }
+    body:after{
+      content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;
+      background:linear-gradient(90deg,rgba(255,255,255,.025),transparent 18%,transparent 82%,rgba(255,255,255,.025));
+    }
+    a{color:inherit;text-decoration:none}
+    .shell{width:min(var(--max),calc(100% - 42px));margin:0 auto}
+    .topbar{position:sticky;top:0;z-index:20;background:rgba(3,1,5,.72);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;font-size:.78rem}
+    .brand-mark{width:42px;height:42px;border:1px solid var(--line-hot);border-radius:12px;background:linear-gradient(145deg,#f3e8ff,#8b35ff 42%,#160026 82%);box-shadow:0 0 40px rgba(139,53,255,.55);position:relative;overflow:hidden}
+    .brand-mark:after{content:"";position:absolute;inset:6px;border:1px solid rgba(255,255,255,.38);border-radius:8px}
+    .links{display:flex;align-items:center;gap:24px;color:#d6c9e8;font-size:.78rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+    .links a{opacity:.78}.links a:hover{opacity:1;color:white}
+    .hero{padding:96px 0 72px;position:relative}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:center}
+    .kicker{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-hot);background:rgba(139,53,255,.12);padding:10px 14px;border-radius:999px;color:#efe2ff;font-size:.72rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;margin-bottom:22px}
+    .pulse{width:9px;height:9px;border-radius:99px;background:#d8b4fe;box-shadow:0 0 24px #d8b4fe}
+    h1,h2,h3,.display{font-family:var(--display);font-weight:400;text-transform:uppercase;line-height:.88;letter-spacing:.005em;margin:0}
+    h1{font-size:clamp(5rem,12vw,12.8rem);max-width:850px;background:linear-gradient(180deg,#fff 0%,#f3e8ff 38%,#b777ff 74%,#5b12d6 100%);-webkit-background-clip:text;color:transparent;text-shadow:0 0 80px rgba(139,53,255,.23)}
+    .hero-copy{margin-top:24px;max-width:660px;color:#d7cbdf;font-size:clamp(1.03rem,1.45vw,1.28rem);line-height:1.65;font-weight:550}
+    .hero-copy b{color:white}
+    .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+    .btn{min-height:54px;display:inline-flex;align-items:center;justify-content:center;padding:0 22px;border-radius:15px;font-size:.82rem;font-weight:950;text-transform:uppercase;letter-spacing:.12em;border:1px solid var(--line);transition:.18s ease;box-shadow:0 18px 60px rgba(0,0,0,.25)}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:linear-gradient(135deg,#f2e8ff,#b678ff 35%,#6d28d9 100%);color:#13001f;border-color:rgba(255,255,255,.4)}
+    .btn-secondary{background:rgba(255,255,255,.06);color:white}
+    .product-card{position:relative;min-height:640px;border:1px solid var(--line-hot);border-radius:34px;background:linear-gradient(180deg,rgba(255,255,255,.11),rgba(255,255,255,.035));box-shadow:0 35px 110px rgba(0,0,0,.62);overflow:hidden;padding:28px}
+    .product-card:before{content:"";position:absolute;inset:-120px -90px auto auto;width:340px;height:340px;background:rgba(190,135,255,.45);filter:blur(70px);border-radius:99px}
+    .product-card:after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.09),transparent 28%,transparent 66%,rgba(139,53,255,.14));pointer-events:none}
+    .label-panel{position:relative;z-index:1;height:100%;border:1px solid rgba(255,255,255,.16);border-radius:26px;background:linear-gradient(180deg,rgba(0,0,0,.48),rgba(0,0,0,.24));padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+    .stamp{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;color:#d7c3f2;font-size:.70rem;font-weight:950;letter-spacing:.16em;text-transform:uppercase}
+    .product-name{font-family:var(--display);font-size:clamp(4.2rem,8vw,8rem);line-height:.84;text-transform:uppercase;letter-spacing:.005em}
+    .product-name span{display:block;color:#b77aff}
+    .formula-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px}
+    .formula{border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:16px;background:rgba(255,255,255,.055)}
+    .formula strong{display:block;font-family:var(--display);font-size:2.3rem;line-height:.92}.formula small{display:block;margin-top:8px;color:#bfb2c9;font-weight:850;text-transform:uppercase;letter-spacing:.08em;font-size:.66rem}
+    .nutrition{border-top:8px solid white;border-bottom:8px solid white;padding:16px 0 10px;margin-top:18px}.nutrition h3{font-size:2.4rem;line-height:.9}.nutri-row{display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.55);padding:9px 0;color:white;font-weight:900;text-transform:uppercase;font-size:.78rem;letter-spacing:.08em}
+    .section{padding:78px 0;border-top:1px solid var(--line)}
+    .section-head{display:grid;grid-template-columns:180px 1fr;gap:36px;margin-bottom:34px}.num{color:#c7a2ff;font-weight:950;letter-spacing:.18em;text-transform:uppercase;font-size:.78rem}.section h2{font-size:clamp(3.6rem,7.3vw,8.6rem);max-width:1050px;background:linear-gradient(180deg,#fff,#d7baff 78%);-webkit-background-clip:text;color:transparent}.section p.lead{max-width:850px;color:#d4c7df;font-size:1.15rem;line-height:1.7;font-weight:560;margin:18px 0 0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.035));border-radius:26px;padding:26px;min-height:250px;box-shadow:0 20px 70px rgba(0,0,0,.28)}.tile .tag{display:inline-flex;border:1px solid var(--line-hot);border-radius:999px;padding:8px 10px;color:#eadbff;font-size:.65rem;font-weight:950;letter-spacing:.14em;text-transform:uppercase;background:rgba(139,53,255,.10);margin-bottom:18px}.tile h3{font-size:2.5rem;line-height:.92}.tile p{color:#beb1ca;line-height:1.62;font-weight:560;margin:18px 0 0}.tile.big{grid-column:span 2}
+    .proof-band{border:1px solid var(--line-hot);border-radius:32px;padding:30px;background:linear-gradient(135deg,rgba(139,53,255,.18),rgba(255,255,255,.055) 45%,rgba(0,0,0,.34));display:grid;grid-template-columns:1.1fr .9fr;gap:26px;align-items:center}.proof-words{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.proof-word{border:1px solid rgba(255,255,255,.16);border-radius:24px;padding:24px;text-align:center;background:rgba(0,0,0,.28)}.proof-word strong{font-family:var(--display);font-size:clamp(2.8rem,5vw,5.4rem);line-height:.85;display:block}.proof-word span{display:block;color:#c8bad4;font-weight:950;text-transform:uppercase;letter-spacing:.12em;font-size:.68rem;margin-top:12px}.proof-copy h3{font-size:clamp(3rem,5.4vw,6rem)}.proof-copy p{color:#d4c8df;line-height:1.65;font-size:1.06rem;font-weight:560}
+    .stack{display:grid;gap:14px}.stack-row{display:grid;grid-template-columns:130px 1fr auto;gap:18px;align-items:center;border:1px solid var(--line);border-radius:22px;padding:18px 20px;background:rgba(255,255,255,.055)}.stack-row b{font-family:var(--display);font-size:2.2rem;line-height:.9;color:#c69cff}.stack-row strong{font-size:1.03rem;text-transform:uppercase;letter-spacing:.08em}.stack-row span{color:#bcb0c7;font-weight:600}.badge{border:1px solid var(--line-hot);border-radius:999px;padding:8px 10px;color:#f1e6ff;font-size:.68rem;font-weight:950;letter-spacing:.12em;text-transform:uppercase;background:rgba(139,53,255,.12);white-space:nowrap}
+    .dark-callout{border:1px solid rgba(255,255,255,.18);border-radius:34px;padding:42px;background:radial-gradient(circle at 15% 0%,rgba(177,97,255,.24),transparent 36%),linear-gradient(135deg,rgba(255,255,255,.08),rgba(0,0,0,.52));box-shadow:0 28px 90px rgba(0,0,0,.46)}.dark-callout h2{font-size:clamp(4rem,8vw,9.2rem)}.dark-callout p{max-width:850px;color:#d7cbe0;line-height:1.7;font-size:1.13rem;font-weight:570}.footer{padding:42px 0 54px;border-top:1px solid var(--line);color:#9d90aa}.footer-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;font-weight:900}
+    @media(max-width:900px){.hero-grid,.proof-band{grid-template-columns:1fr}.product-card{min-height:auto}.section-head{grid-template-columns:1fr;gap:12px}.grid-3{grid-template-columns:1fr}.tile.big{grid-column:auto}.proof-words{grid-template-columns:1fr}.links{display:none}.stack-row{grid-template-columns:1fr}.formula-strip{grid-template-columns:1fr}h1{font-size:clamp(4.4rem,18vw,8rem)}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell">
+      <nav>
+        <a class="brand" href="#top"><span class="brand-mark"></span><span>The Real Wiggs</span></a>
+        <div class="links">
+          <a href="#proof">Proof</a><a href="#formula">Formula</a><a href="#stack">Stack</a><a href="https://github.com/emcdo411/the-real-wiggs-executive-brief">GitHub</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <div class="kicker"><span class="pulse"></span> Executive AI Roadmap Stress Test</div>
+          <h1>THE REAL WIGGS</h1>
+          <p class="hero-copy"><b>Not product theater. Not AI hype.</b> A premium executive brief built to pressure-test whether Veracode’s AI roadmap converts into developer behavior, revenue proof, customer retention, and board-level value realization.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://github.com/emcdo411/the-real-wiggs-executive-brief/tree/main/outputs">Open the Brief</a>
+            <a class="btn btn-secondary" href="https://github.com/emcdo411/the-real-wiggs-executive-brief">View Repository</a>
+          </div>
+        </div>
+        <aside class="product-card" aria-label="Executive brief product label">
+          <div class="label-panel">
+            <div class="stamp"><span>Epoch Frameworks LLC</span><span>June 2026</span></div>
+            <div>
+              <div class="product-name">AI<br><span>PROOF</span><br>STACK</div>
+              <div class="formula-strip">
+                <div class="formula"><strong>MOC</strong><small>Execution bottleneck</small></div>
+                <div class="formula"><strong>MBEL</strong><small>Economic behavior</small></div>
+                <div class="formula"><strong>AWSS</strong><small>Amazon gap lens</small></div>
+              </div>
+            </div>
+            <div class="nutrition">
+              <h3>VALUE FACTS</h3>
+              <div class="nutri-row"><span>Capability theater</span><span>0g</span></div>
+              <div class="nutri-row"><span>Revenue signal</span><span>High</span></div>
+              <div class="nutri-row"><span>Board relevance</span><span>Loaded</span></div>
+              <div class="nutri-row"><span>Core metric</span><span>AMS</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="proof">
+      <div class="shell">
+        <div class="section-head"><div class="num">01 // Proof Layer</div><div><h2>Accepted. Merged. Sustained.</h2><p class="lead">The strongest AppSec AI story is not “we can detect and suggest fixes.” The stronger story is whether developers accept the fix, merge the fix, keep the fix, and shrink the customer’s exposure window.</p></div></div>
+        <div class="proof-band">
+          <div class="proof-words"><div class="proof-word"><strong>A</strong><span>Accepted</span></div><div class="proof-word"><strong>M</strong><span>Merged</span></div><div class="proof-word"><strong>S</strong><span>Sustained</span></div></div>
+          <div class="proof-copy"><h3>THE METRIC THAT SELLS</h3><p>AMS turns AI from a feature claim into a GTM weapon. It gives a CRO, CEO, customer success leader, or board member a clean proof point: security debt moved because developer behavior changed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formula">
+      <div class="shell">
+        <div class="section-head"><div class="num">02 // Market Position</div><div><h2>Premium Performance Thinking For AI Roadmaps.</h2><p class="lead">This page is intentionally built like a high-end performance product: bold promise, disciplined label, clean ingredients, no wasted motion. The brief does the same thing for Veracode’s AI positioning.</p></div></div>
+        <div class="grid-3">
+          <article class="tile"><span class="tag">Veracode</span><h3>Strong AI Remediation Story</h3><p>The public roadmap has real strength in remediation and application risk. The pressure point is whether that story produces business-proof telemetry.</p></article>
+          <article class="tile"><span class="tag">Checkmarx</span><h3>Enterprise Agentic Threat</h3><p>The peer threat is positioning around agentic security workflows, forcing the market to ask whether AI is a workflow engine or a feature wrapper.</p></article>
+          <article class="tile"><span class="tag">Snyk</span><h3>Developer-First Adoption Pressure</h3><p>The disruptor pressure is cultural and workflow-based: win developer behavior first, then translate that behavior into revenue defense.</p></article>
+          <article class="tile big"><span class="tag">Amazon Northstar</span><h3>Embedded Security By Default</h3><p>Amazon Q Developer and AWS-native expectations create the benchmark: security guidance must show up inside the workflow, reduce friction, and create measurable value without asking the buyer to believe a marketing claim.</p></article>
+          <article class="tile"><span class="tag">Executive Takeaway</span><h3>AI As Revenue Architecture</h3><p>The winner is not the company with the loudest AI language. The winner is the one that proves behavior change, reduced exposure, and value realization.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="stack">
+      <div class="shell">
+        <div class="section-head"><div class="num">03 // Framework Stack</div><div><h2>The Ingredient Panel.</h2><p class="lead">Three proprietary lenses, translated into plain executive language without exposing internal mechanics.</p></div></div>
+        <div class="stack">
+          <div class="stack-row"><b>01</b><div><strong>MOC — Marketing Ops Catalyst</strong><br><span>Finds the bottleneck between a smart idea and a result someone can own.</span></div><span class="badge">Execution Fit</span></div>
+          <div class="stack-row"><b>02</b><div><strong>MBEL — Macro-Behavioral Economics Layer</strong><br><span>Checks whether the money story matches the behavior story.</span></div><span class="badge">P&L Logic</span></div>
+          <div class="stack-row"><b>03</b><div><strong>AWSS — Amazon Workflow Stress Standard</strong><br><span>Benchmarks whether the roadmap can survive Amazon-level embedded workflow expectations.</span></div><span class="badge">Market Pressure</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell dark-callout">
+        <div class="num">04 // Founder-Grade Close</div>
+        <h2>BUILT TO LOOK EXPENSIVE. WRITTEN TO SOUND BOARDROOM.</h2>
+        <p>This is the landing page version of a premium performance product: sharp enough for a founder, disciplined enough for an operator, and direct enough for a CRO. The page makes the brief feel less like a report and more like a packaged strategic asset.</p>
+        <div class="cta-row"><a class="btn btn-primary" href="https://github.com/emcdo411/the-real-wiggs-executive-brief/tree/main/outputs">Read the Stress Test</a><a class="btn btn-secondary" href="#top">Back to Top</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-grid"><span>Prepared by Maurice “Moe” McDonald / Epoch Frameworks LLC</span><span>MOC + MBEL + AWSS</span><span>Public-Signal Executive Brief</span></div>
+  </footer>
+</body>
+</html>
